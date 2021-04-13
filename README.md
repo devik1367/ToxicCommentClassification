@@ -9,6 +9,8 @@ Convolutional neural network (CNN), word representations, text encoding, Bag-of-
 
 # Dataset:  
 We used the Wikipedia comments dataset (https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) provided by Jigsaw/ Conversational AI, which is a combination of ~ 550,000 comments from Wikipedia articles. The toxicity is categorized into the following categories: Toxic, Severe_Toxic, Obscene, Threat, Insult, and Identity_hate.
+To use the dataset with the colab notebook, download the file and upload it to your google drive.
 
 # Method:
 This repository contains one of the models we tried, BERT with Logistic Regression. You can read more about it, and the other models we tried, in the attached paper.
+The BERT model I used, i.e. bert-base-nli-stsb-mean-tokens, is a bert model trained on sentences. You can download it from here: https://public.ukp.informatik.tu-darmstadt.de/reimers/sentence-transformers/v0.2/.
